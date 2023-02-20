@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
 }
 
@@ -47,6 +47,9 @@
   top: 578px;
   background: #ffffff;
   border-radius: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  color: #005fac;
 }
 
 /* failures style */
@@ -91,11 +94,10 @@
   color: #151414;
 }
 
-.plan-container {
-  display: flex;
+/* .plan-container {
 }
 .plan-details {
-}
+} */
 .title-plan {
   color: #151414;
   text-align: center;
@@ -107,4 +109,34 @@
 .plan-container {
   display: flex;
   justify-content: space-around;
+}
+
+/* Future section */
+
+.future {
+  display: flex;
+  gap: 100px;
+  background: #151414;
+  padding: 130px 200px;
+}
+.future .section-title {
+  text-align: left;
+  color: #f8f8f8;
+}
+.section-description {
+  color: #ffffff;
+}
+.future input[type="email"] {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+  color: #f8f8f8;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: #151414;
+}
+
+.future a {
+  text-decoration: none;
 }
