@@ -111,6 +111,19 @@
   justify-content: space-around;
 }
 
+/* gradient style */
+.watch-img {
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url("images/watch.png");
+  width: 70%;
+  height: 200px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  margin-left: 12%;
+  border-radius: 8px;
+}
+
 /* Future section */
 
 .future {
