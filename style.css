@@ -41,7 +41,6 @@
 }
 
 .btn-primary {
-  gap: 40px;
   width: 160px;
   height: 64px;
   right: 1500px;
@@ -53,7 +52,6 @@
 /* failures style */
 
 .failures-person {
-  position: absolute;
   width: 569px;
   height: 723.3px;
   left: 206px;
@@ -76,10 +74,8 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  gap: 30px;
 }
 .icon-text {
-  gap: 50px;
   width: 349px;
   height: 162px;
   left: 862px;
@@ -93,4 +89,22 @@
 .my-plan {
   text-align: center;
   color: #151414;
+}
+
+.plan-container {
+  display: flex;
+}
+.plan-details {
+}
+.title-plan {
+  color: #151414;
+  text-align: center;
+}
+.title-des {
+  text-align: center;
+  color: #737272;
+}
+.plan-container {
+  display: flex;
+  justify-content: space-around;
 }
