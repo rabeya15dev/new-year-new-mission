@@ -1,0 +1,96 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+/* header banner style */
+.banner {
+  height: 808px;
+  width: 100%;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.text-left {
+  position: absolute;
+  width: 600px;
+  height: 228px;
+  left: 845px;
+  top: 216px;
+}
+.title {
+  font-weight: 700;
+  font-size: 65px;
+  left: 845px;
+  top: 216px;
+  text-align: right;
+  line-height: 76px;
+}
+.description {
+  left: 876px;
+  top: 468px;
+  gap: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #ffffff;
+  line-height: 26px;
+}
+
+.btn-primary {
+  gap: 40px;
+  width: 160px;
+  height: 64px;
+  right: 1500px;
+  top: 578px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+/* failures style */
+
+.failures-person {
+  position: absolute;
+  width: 569px;
+  height: 723.3px;
+  left: 206px;
+  top: 939px;
+}
+.failures-details {
+  position: absolute;
+  width: 416px;
+  height: 400px;
+  left: 862px;
+  top: 1178px;
+}
+.fi-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+.fi-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  gap: 30px;
+}
+.icon-text {
+  gap: 50px;
+  width: 349px;
+  height: 162px;
+  left: 862px;
+  top: 1416px;
+}
+.icon-color {
+  color: rgb(73, 231, 73);
+}
+
+/* my-plan style */
+.my-plan {
+  text-align: center;
+  color: #151414;
+}
